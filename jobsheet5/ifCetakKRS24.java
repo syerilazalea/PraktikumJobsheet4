@@ -16,6 +16,12 @@ public class ifCetakKRS24 {
             System.out.println("Pembayaran UKT belum lunas ");
             System.out.print("Silahkan lunasi UKT terlebih dahulu");
         }
-        
+
+        // Transformasi ke bentuk ternary operator
+        String pesan = uktLunas
+            ? "Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA"
+            : "Pembayaran UKT belum lunas\nSilahkan lunasi UKT terlebih dahulu";
+        System.out.println("\n--- Versi Ternary Operator ---");
+        System.out.println(pesan);
     }
 }
