@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ifCetakKRSNoPresensi {
+public class ifCetakKRS24 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("--- Cetak KRS SIAKAD --- ");
